@@ -1,8 +1,6 @@
 
 // === Dependencies ===
 const express = require('express');
-const htmlRoutes = require('./routes/htmlRoutes');
-
 
 // === Server init ===
 const app = express();
@@ -17,7 +15,7 @@ app.use(express.static('public'));
 
 // === Routes  === 
 require('./routes/apiRoutes')(app);
-app.use('/',htmlRoutes);
+require('./routes/htmlRoutes')(app);
 
 app.listen(PORT, () =>
     console.log(`Server listening at http://localhost:${PORT} 🚀`)
