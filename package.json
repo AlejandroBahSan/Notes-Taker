@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node app"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alejandro Bahena",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.1",
     "node": "^17.7.2",
