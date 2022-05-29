@@ -1,5 +1,6 @@
 # Notes-Taker
  ### MIT 
+ #### Deployed aplication: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://notes-taker-with-express.herokuapp.com/)  
  ### ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
  ### https://choosealicense.com/licenses/mit/
   ## Table of Contents:
