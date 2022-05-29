@@ -1,10 +1,11 @@
 
 // === Dependencies ===
 const express = require('express');
+const htmlRoutes = require('./routes/htmlRoutes');
 const path = require("path");
+
 // === Server init ===
 const app = express();
-
 
 // === Server able to accept a "what port to listen on" parameter from the environment ===
 const PORT = process.env.PORT || 3000;
@@ -16,7 +17,7 @@ app.use(express.static(path.join(__dirname, './public')));
 
 // === Routes  === 
 require('./routes/apiRoutes')(app);
-require('./routes/htmlRoutes')(app);
+app.use('/',htmlRoutes);
 
 app.listen(PORT, () =>
     console.log(`Server listening at http://localhost:${PORT} 🚀`)
