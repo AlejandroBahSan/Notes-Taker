@@ -2,9 +2,12 @@
  ### MIT 
  ### ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
  ### https://choosealicense.com/licenses/mit/
+ 
+
   ## Table of Contents:
   - ### [Installation](#installation)
   - ### [Usage](#usage)
+  - ### [Deployed](#deployed)
   - ### [License](#license)
   - ### [Contribution](#collaborators)
   - ### [Technologies](#tools)
@@ -14,6 +17,8 @@
   #### To use this application you will only need to install the dependencies from `npm i`. Then start it with the command node `server.js` and open the following local address in your browser `http://localhost:3001/`
   ## Usage:
   #### A a user to be able to write and save notes, as well as delete them when i don't need them anymore.
+   ## Deployed aplication 
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://notes-taker-with-express.herokuapp.com/)
   ## License:
   ### MIT 
   ### Copyright (c) <year> <copyright holders>
