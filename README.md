@@ -18,7 +18,8 @@
   ## Usage:
   #### A a user to be able to write and save notes, as well as delete them when i don't need them anymore.
    ## Deployed aplication 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://notes-taker-with-express.herokuapp.com/)
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://notes-taker-with-express.herokuapp.com/)</br>
+ ![](https://github.com/AlejandroBahSan/Notes-Taker/blob/master/Assets/NoteTaker-Demo.gif)
   ## License:
   ### MIT 
   ### Copyright (c) <year> <copyright holders>
